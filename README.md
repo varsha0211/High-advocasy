@@ -140,9 +140,9 @@ The rejection flow was also verified to ensure rejected testimonials do not appe
 
 ## Project Links
 
-- GitHub: `<repository-url>`
-- Frontend: `<frontend-url-if-deployed>`
-- Backend: `<backend-url-if-deployed>`
+- GitHub: https://github.com/varsha0211/High-advocasy
+- Frontend: [`<frontend-url-if-deployed>`](https://high-advocasy-gaxebwu4e-test11-e3d8.vercel.app)
+- Backend: https://high-advocasy.onrender.com
 
 ## License
 
