@@ -7,8 +7,14 @@ import { HttpExceptionFilter } from './common/filters/exception.filter';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
+  const corsUrls = process.env.CORS_URLS?.split(',')
+    .map((url) => url.trim())
+    .filter(Boolean);
+
+  console.log('CORS:', corsUrls);
+
   app.enableCors({
-    origin: process.env.CORS_URLS?.split(',') || ['http://localhost:5173'],
+    origin: corsUrls,
     methods: 'GET,PATCH,POST,DELETE,OPTIONS',
   });
 
