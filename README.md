@@ -1,9 +1,9 @@
-
 A simple testimonial platform where customers can submit testimonials and businesses can review, approve, or reject them before they are displayed publicly.
 
 ## Tech Stack
 
 ### Frontend
+
 - React
 - Vite
 - JavaScript
@@ -13,6 +13,7 @@ A simple testimonial platform where customers can submit testimonials and busine
 - React Toastify
 
 ### Backend
+
 - Node.js
 - NestJS
 - REST API
@@ -137,12 +138,11 @@ Verify testimonial appears on Public Wall
 
 The rejection flow was also verified to ensure rejected testimonials do not appear publicly.
 
-
 ## Project Links
 
-- GitHub: https://github.com/varsha0211/High-advocasy
-- Frontend: [`<frontend-url-if-deployed>`](https://high-advocasy-gaxebwu4e-test11-e3d8.vercel.app)
-- Backend: https://high-advocasy.onrender.com
+- **Live Demo:** [`Live`](https://high-advocasy-gaxebwu4e-test11-e3d8.vercel.app)
+- **GitHub Repository:** https://github.com/varsha0211/High-advocasy
+- **Frontend:** https://high-advocasy-gaxebwu4e-test11-e3d8.vercel.app
 
 ## License
 
