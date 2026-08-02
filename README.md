@@ -1,4 +1,4 @@
-# Testify
+# Testimonials
 
 A simple testimonial platform where customers can submit testimonials and businesses can review, approve, or reject them before they are displayed publicly.
 
